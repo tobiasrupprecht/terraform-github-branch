@@ -5,5 +5,5 @@ provider "github" {
 
 resource "github_branch" "branch" {
   repository = var.github_repository
-  branch     = var.brnach_name
+  branch     = var.branch_name
 }

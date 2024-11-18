@@ -9,7 +9,7 @@ variable "github_repository" {
   type        = string
 }
 
-variable "brnach_name" {
+variable "branch_name" {
   description = "Branch name"
   type        = string
 }
